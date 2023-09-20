@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;    
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+        
+    }  
+    
+    
+ 
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    } 
+    .rrr{
+        width=50%;
+    
+        
+        
+    }
+
+    </style>
+</head>
+<body>
+    <h1 align="center">REGISTATION FORM</h1>
+    <form>
+        <div class="container">
+            <marquee class="rrr" direction = "up">This example will take only 50% width</marquee>
+
+        <label for="hello">name:</label><input  id="hello" type="text"  size="50" maxlength="20" placeholder="enter your name" align="center"><br>
+        <label for="hii" >password:</label><input id="hii" type="password" size="50" maxlength="20" placeholder="enter your name" align="center">
+        <br><label>address:</label>
+        <br><textarea rows="5" cols="20" ></textarea><br>
+        <h2>select cources</h2>
+        <input type="checkbox" id="pps"><label for="pps">pps</label>
+        <input type="checkbox" id="pp"><label for="pp">pp</label>
+        <input type="checkbox" id="oops"><label for="oops">oops</label>
+        <input type="checkbox" id="ds"><label for="ds">ds</label>
+        <h2>select gender</h2>
+        <input type="radio" id="male" name="hello" value="male"><label for="male">male</label>
+        <input type="radio" id="female" name="hello" value="female"><label for="female">female</label><br>
+        <select >
+            <option>select your rating</option>
+            <option>amazing</option>
+            <option>*****</option>
+            <option>****</option>
+        </select><br>
+        
+        <button type="button"  value="submit " >login</button>
+    </div>
+    </form> 
+</body>
+</html>
